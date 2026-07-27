@@ -74,11 +74,11 @@ def is_fibonacci_number(num):
     return a == num
 
 
-print("========== PART A — Print the First N Terms ==========")
+print("PART A — Print the First N Terms ")
 n = int(input("How many terms? "))
 print_fibonacci(n)
 
-print("\n========== PART B — Check if a Number Belongs to the Sequence ==========")
+print("\nPART B — Check if a Number Belongs to the Sequence ")
 num = int(input("Enter a number to check: "))
 
 if is_fibonacci_number(num):
