@@ -110,16 +110,15 @@ def delete_task(tasks):
 
 
 def print_menu():
-    print("============================")
+
     print("     TO-DO LIST MENU")
-    print("============================")
+
     print("1. Add task")
     print("2. View tasks")
     print("3. Delete task")
     print("4. Quit")
 
 
-# --- Main Block ---
 tasks = []
 
 while True:
