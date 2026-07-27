@@ -70,14 +70,14 @@ def print_tables_up_to(n):
             print("---------------------------------------------------")
 
 
-print("========== PART A — Single Table ==========")
+print("PART A — Single Table ")
 num = int(input("Enter a number: "))
 if num <= 0:
     print("Error: Number must be a positive integer.")
 else:
     print_single_table(num)
 
-print("\n========== PART B — Tables from 1 to N ==========")
+print("\n PART B — Tables from 1 to N")
 n = int(input("Enter a number N: "))
 if n <= 0:
     print("Error: Number must be a positive integer.")
