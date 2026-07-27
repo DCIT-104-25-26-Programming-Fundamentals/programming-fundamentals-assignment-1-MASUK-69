@@ -146,7 +146,6 @@ def print_menu():
     print("4. Quit")
 
 
-# --- Main Block ---
 students = []
 
 while True:
