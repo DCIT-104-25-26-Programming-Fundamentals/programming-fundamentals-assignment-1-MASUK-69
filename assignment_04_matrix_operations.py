@@ -112,7 +112,7 @@ def multiply_matrices(a, b, m, n, p):
     return result
 
 
-print("========== PART A — Transpose a Matrix ==========")
+print(" PART A — Transpose a Matrix ")
 matrix, rows, cols = read_matrix("Part A")
 print("\nOriginal Matrix:")
 display_matrix(matrix)
@@ -120,7 +120,7 @@ transposed = transpose_matrix(matrix, rows, cols)
 print("\nTransposed Matrix:")
 display_matrix(transposed)
 
-print("\n========== PART B — Add Two Matrices ==========")
+print("\n PART B — Add Two Matrices ")
 a1, r1, c1 = read_matrix("Matrix A")
 a2, r2, c2 = read_matrix("Matrix B")
 
@@ -135,7 +135,7 @@ else:
     print("Sum (A + B):")
     display_matrix(result_add)
 
-print("\n========== PART C — Multiply Two Matrices ==========")
+print("\n PART C — Multiply Two Matrices ")
 ma, m_rows, m_cols = read_matrix("Matrix A")
 mb, _, mb_cols = read_matrix("Matrix B")
 
